@@ -1,8 +1,6 @@
-Drivers/BSP/stm32f401_discovery_accelerometer.o: \
- ../Drivers/BSP/stm32f401_discovery_accelerometer.c \
- ../Drivers/BSP/stm32f401_discovery_accelerometer.h \
- ../Drivers/BSP/Components/lsm303dlhc/lsm303dlhc.h \
- ../Drivers/BSP/Components/lsm303dlhc/../Common/accelero.h \
+Drivers/Hardware/acelerometro.o: ../Drivers/Hardware/acelerometro.c \
+ ../Drivers/Hardware/acelerometro.h \
+ C:/Users/pista/STM32CubeIDE/workspace_1.1.0/DSP2019/Drivers/Hardware/Components/lsm303dlhc/lsm303dlhc.h \
  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h \
  ../Core/Inc/stm32f4xx_hal_conf.h \
  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h \
@@ -34,11 +32,9 @@ Drivers/BSP/stm32f401_discovery_accelerometer.o: \
  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h \
  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h
 
-../Drivers/BSP/stm32f401_discovery_accelerometer.h:
+../Drivers/Hardware/acelerometro.h:
 
-../Drivers/BSP/Components/lsm303dlhc/lsm303dlhc.h:
-
-../Drivers/BSP/Components/lsm303dlhc/../Common/accelero.h:
+C:/Users/pista/STM32CubeIDE/workspace_1.1.0/DSP2019/Drivers/Hardware/Components/lsm303dlhc/lsm303dlhc.h:
 
 ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h:
 

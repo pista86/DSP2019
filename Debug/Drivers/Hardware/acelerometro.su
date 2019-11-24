@@ -1,0 +1,7 @@
+acelerometro.c:22:9:acelerometro_init	56	static
+acelerometro.c:97:6:acelerometro_getXYZ	24	static
+acelerometro.c:117:13:COMPASSACCELERO_IO_Write	40	static
+acelerometro.c:131:16:COMPASSACCELERO_IO_Read	40	static
+acelerometro.c:146:13:COMPASSACCELERO_IO_Init	4	static
+acelerometro.c:152:13:COMPASSACCELERO_IO_ITConfig	4	static
+acelerometro.c:160:13:I2Cx_Error	8	static

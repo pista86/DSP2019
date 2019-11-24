@@ -25,6 +25,7 @@
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
 #include "stdio.h"
+#include "acelerometro.h"
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -113,7 +114,7 @@ int main(void)
 
   status = HAL_I2C_Mem_Read(&hi2c1, 0x32, 0x0F, 1, &value, 1, 10000);
 
-
+  value = acelerometro_init(&hi2c1, MX_I2C1_Init);
 
 
   /* USER CODE END 2 */
